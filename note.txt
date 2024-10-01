@@ -1,0 +1,20 @@
+//Add fn for display Asignee on ticket
+http://localhost:8088/serviceTickets?_embed=employeeTickets
+
+so first you look at ERD
+assignee==employee assigned to serice ticket
+their relation: bridge table-- employeeTickets
+from service tickets-->so go employeeTickets to get to employee info table
+
+embed/expand 
+
+no employeeserviceticketid on serviceTicket but there is on serviceticketid on employeeTicket
+service ticket 
+
+start:  http://localhost:8088/serviceTickets
+them: http://localhost:8088/serviceTickets?_embed=employeeTickets
+
+then you know 
+
+
+can get employeeticket, fetch employee later
